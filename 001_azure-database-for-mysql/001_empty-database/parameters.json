@@ -1,0 +1,30 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters":{
+        "databaseForMySqlAdminName": {
+            "value": "sampleuser"
+        },
+        "databaseForMySqlAdminPassword": {
+            "value": "<replace your password>"
+        },
+        "databaseForMySqlDatabaseName": {
+            "value": "sampledb"
+        },
+        "databaseForMySqlTier": {
+            "value": "MemoryOptimized"
+        },
+        "databaseForMySqlFamily": {
+            "value": "Gen5"
+        },
+        "databaseForMySqlCores": {
+            "value": 2
+        },
+        "databaseForMySqlVersion": {
+            "value": "5.7"
+        },
+        "databaseForMySqlSizeGb": {
+            "value": 5
+        }
+    }
+}
