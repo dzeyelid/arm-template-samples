@@ -10,7 +10,7 @@
         },
         "databaseForMySqlDatabaseName": {
             "type": "string",
-            "defaultValue": "shibuya"
+            "defaultValue": "sampledb"
         },
         "databaseForMySqlTier": {
             "type": "string",
