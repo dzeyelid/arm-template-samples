@@ -71,10 +71,7 @@
             "apiVersion": "2017-12-01",
             "location": "[variables('location')]",
             "sku": {
-                "name": "[variables('databaseForMySqlSku')]",
-                "tier": "[parameters('databaseForMySqlTier')]",
-                "size": "[parameters('databaseForMySqlSizeGb')]",
-                "family": "[parameters('databaseForMySqlFamily')]"
+                "name": "[variables('databaseForMySqlSku')]"
             },
             "properties": {
                 "version": "[parameters('databaseForMySqlVersion')]",
